@@ -4,14 +4,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="PxVHqLpHNdYlyJrL0roFHhf-4wP6XlMhs0YYFKFQJSQ"/>
+  <meta name="google-site-verification" content="PxVHqLpHNdYlyJrL0roFHhf-4wP6XlMhs0YYFKFQJSQ" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./js/jquery-3.5.1.js">
+  <link rel="stylesheet" href="./js/script.js">
   <title>Book Finder</title>
 </head>
-
 <body>
+  <div class="header">
+    <a href="#" class="logo"><img src="./images/bookfinder-logo.jpeg" height="100" width="auto"
+        style="border-radius: 23px;">
+      <nav>
+        <ul>
+          <li><a href="#"></a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Log in</a></li>
+        </ul>
+      </nav>
+      <div class="clearfix"></div>
+  </div>
+  <div class="sub-header">
+    <div class="card">
+      <div id="books" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+
+        <ul class="carousel-indicators">
+          <li data-target="#books" data-slide-to="0" class="active"></li>
+          <li data-target="#books" data-slide-to="1"></li>
+          <li data-target="#books" data-slide-to="2"></li>
+          <li data-target="#books" data-slide-to="3"></li>
+          <li data-target="#books" data-slide-to="4"></li>
+        </ul>
+
+        <!-- The slideshow -->
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/book-genres.base" alt="books" width="1400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/lib.png" alt="books" width="1400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/biblioteca_libros_prohibidos.jpg" alt="books" width="1500" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/clipart-books-shelf-12.png" alt="books" width="1500" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pileobooks5.jpg" alt="books" width="1500" height="500">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+
+        <a class="carousel-control-prev" href="#books" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <div class="text text-center">
+        <h2>
+          <strong>Find to around 100,000 books<br />
+            compiled by renowned authors</strong>
+        </h2>
+        <h6>
+          I have always imagined paradise will be a kind of library.Here at book
+          finder, <br />we convert your immaginations to reality by giving you
+          the book of your choice.
+        </h6>
+        <button type="button" id="search-btn">
+          <i class="fas fa-search"></i> Find Book
+        </button>
+      </div>
+    </div>
+
+  </div>
+  
   <!-- landing page -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
