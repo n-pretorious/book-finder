@@ -1,71 +1,94 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  color: forestgreen;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-.header {
-  position: relative;
-  max-width: 1300px;
-  padding: 0px;
-  background: rgb(42, 97, 92);
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
   box-sizing: border-box;
-  border-radius: 1px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  font-family: 'Comfortaa', cursive;
 }
-.logo {
-  padding: 0 20px;
-  box-sizing: border-box;
-  float: left;
-  border-radius: 25px;
+body{
+  background: url('../images/photo-1481627834876-b7833e8f5570.jpg') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
-nav {
-  float: right;
-}
-.clearfix {
-  clear: both;
-}
-nav ul {
-  margin: 0px;
-  padding: 0px;
+.wrapper{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0,0.6);
+  max-width: 550px;
+  width: 100%;
+  padding: 15px;
   display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
 }
-nav ul li {
-  list-style: none;
+.wrapper .input {
+  width: 85%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
-nav ul li a {
-  display: block;
-  margin: 10px 0;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: aquamarine;
+.searchbtn {
+  background: wheat;
+  width: 10%;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
 }
-nav ul li a.active,
-nav ul li a:hover {
-  background-color: rgb(51, 148, 155);
-  color: #fff;
-  transition: 0.7s;
+.searchbtn .fas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
 }
-.text,
-h2,
-h6 {
-  padding-top: 8vh;
+h1{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  font-weight: 500px;
+  color: thistle;
+  max-width: 550px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
 }
-#search-btn {
-  margin: 15px;
-  background-color: rgb(19, 134, 63);
+#res{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 100%;
+  padding: 15px;
+   width: 90%; 
+   height:500px; 
+   overflow-y: auto; 
+   overflow-x: hidden; 
+   display: flex; 
+   flex-direction: row;
+  padding: 10px;
+  margin: 10px 0px; 
+    }
+ .book img { 
+     width: 100px; margin-right: 10px; 
+    }
+ .book h2  {
+      margin: 0px; 
 }
-#search-btn:hover {
-  background-color: rgb(3, 243, 247);
+ .tex{
+     font-size: medium;
+     color: white;
+  }
+.tex ,span {
+   padding-left: 10px;
 }
-a {
-  text-decoration: none !important;
+#res::-webkit-scrollbar {
+  display: none;
 }
-.sub-header {
-  background: rgb(8, 134, 118);
-}
-.card,
-.text {
-  background-color: rgb(126, 131, 130);
+#res {
+-ms-overflow-style: none;  
+scrollbar-width: none;  
 }
