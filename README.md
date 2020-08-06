@@ -44,4 +44,4 @@ The app can be downloaded and installed in either phone,tablet,computer and any 
 ## live link to the project
  https://n-pretorious.github.io/book-finder/
 ## License
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
