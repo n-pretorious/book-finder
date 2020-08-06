@@ -45,4 +45,3 @@ The app can be downloaded and installed in either phone,tablet,computer and any 
  https://n-pretorious.github.io/book-finder/
 ## License
 MIT
-
