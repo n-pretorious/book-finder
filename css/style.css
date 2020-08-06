@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0px;
   padding: 0px;
   color: forestgreen;
@@ -51,6 +51,7 @@ nav ul li a:hover {
 h2,
 h6 {
   padding-top: 8vh;
+  background-color: transparent;
 }
 #search-btn {
   margin: 15px;
@@ -64,8 +65,5 @@ a {
 }
 .sub-header {
   background: rgb(8, 134, 118);
-}
-.card,
-.text {
-  background-color: rgb(126, 131, 130);
-}
+} */
+
