@@ -17,7 +17,7 @@ body{
 
 .wrapper{
 	position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0,0.6);
@@ -54,9 +54,9 @@ body{
 }
 h1{
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 40%;
-    font-weight: 300;
+    font-weight: 500px;
     color: thistle;
     max-width: 550px;
     width: 100%;
@@ -64,4 +64,49 @@ h1{
     display: flex;
     justify-content: space-between;
     
+}
+#res{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 100%;
+    padding: 15px;
+    
+     width: 90%; 
+     height:500px; 
+     overflow-y: auto; 
+     overflow-x: hidden; 
+     display: flex; 
+     flex-direction: row;
+    
+    padding: 10px;
+    margin: 10px 0px; 
+      }
+    
+
+          
+   .book img { 
+       width: 100px; margin-right: 10px; 
+      }
+   .book h2  {
+        margin: 0px; 
+}
+   .tex{
+       font-size: medium;
+       color: white;
+       
+    }
+ .tex ,span {
+     padding-left: 10px;
+ }
+ 
+
+#res::-webkit-scrollbar {
+    display: none;
+}
+
+
+#res {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
 }
